@@ -52,8 +52,8 @@ goButton.addEventListener("click", () => {
 
     // counter so if they do it enough times, it just tells them how it is
     counter++;
-    if (counter > 5) {
-      document.querySelector(".App").innerHTML = "<h3>Look. It's monospace so just stop asking.</h3>";
+    if (counter >= 3) {
+      document.querySelector(".App").innerHTML = "<p>Look.<br /><br />It's monospace.<br /><br />Just stop asking.</p>";
     }
   }
 });

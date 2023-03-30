@@ -17,11 +17,11 @@ body {
   max-width: 600px;
   margin: 0 auto;
 }
-h3 {
+p {
   margin: 0;
 }
 #font {
-  height: 7rem;
+  height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
